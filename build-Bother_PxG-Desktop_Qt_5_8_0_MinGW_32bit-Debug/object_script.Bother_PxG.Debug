@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\main_dialog.o
+./debug\cavebot_dialog.o
+./debug\alarms_dialog.o
+./debug\fishing_dialog.o
+./debug\healing_dialog.o
+./debug\hunting_dialog.o
+./debug\qrc_images_resourcefile.o
+./debug\moc_main_dialog.o
+./debug\moc_cavebot_dialog.o
+./debug\moc_alarms_dialog.o
+./debug\moc_fishing_dialog.o
+./debug\moc_healing_dialog.o
+./debug\moc_hunting_dialog.o
+);

@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\main_dialog.o
+./release\cavebot_dialog.o
+./release\alarms_dialog.o
+./release\fishing_dialog.o
+./release\healing_dialog.o
+./release\hunting_dialog.o
+./release\qrc_images_resourcefile.o
+./release\moc_main_dialog.o
+./release\moc_cavebot_dialog.o
+./release\moc_alarms_dialog.o
+./release\moc_fishing_dialog.o
+./release\moc_healing_dialog.o
+./release\moc_hunting_dialog.o
+);
