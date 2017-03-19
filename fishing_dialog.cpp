@@ -6,6 +6,7 @@ Fishing_Dialog::Fishing_Dialog(QWidget *parent) :
     ui(new Ui::Fishing_Dialog)
 {
     ui->setupUi(this);
+    setWindowTitle("Pescar");
 }
 
 Fishing_Dialog::~Fishing_Dialog()

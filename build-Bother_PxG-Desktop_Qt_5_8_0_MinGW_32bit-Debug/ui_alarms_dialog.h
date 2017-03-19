@@ -27,6 +27,9 @@ public:
         if (Alarms_Dialog->objectName().isEmpty())
             Alarms_Dialog->setObjectName(QStringLiteral("Alarms_Dialog"));
         Alarms_Dialog->resize(400, 300);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/icon/images/icones/Alarms.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Alarms_Dialog->setWindowIcon(icon);
 
         retranslateUi(Alarms_Dialog);
 

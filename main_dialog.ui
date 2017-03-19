@@ -6,18 +6,183 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>504</width>
-    <height>328</height>
+    <width>245</width>
+    <height>318</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Main_Dialog</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true">background-image: url(:/background/images/background/dark-page_shadow.png);</string>
+  <property name="windowIcon">
+   <iconset resource="images_resourcefile.qrc">
+    <normaloff>:/icon/images/icones/minilogo.png</normaloff>:/icon/images/icones/minilogo.png</iconset>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QGroupBox" name="groupBox_bother">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>118</width>
+     <height>257</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Ativar</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_caveBot">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:gray;</string>
+      </property>
+      <property name="text">
+       <string>Cavebot</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images_resourcefile.qrc">
+        <normaloff>:/icon/images/icones/Cavebot.png</normaloff>:/icon/images/icones/Cavebot.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_healing">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Curar</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images_resourcefile.qrc">
+        <normaloff>:/icon/images/icones/Healer.png</normaloff>:/icon/images/icones/Healer.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_fishing">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pescar</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images_resourcefile.qrc">
+        <normaloff>:/icon/images/icones/Fishing.png</normaloff>:/icon/images/icones/Fishing.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_hunting">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Atacar</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images_resourcefile.qrc">
+        <normaloff>:/icon/images/icones/Hunting.png</normaloff>:/icon/images/icones/Hunting.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>32</width>
+        <height>32</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_alarms">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>200</y>
+     <width>98</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Alarmes</string>
+   </property>
+   <property name="icon">
+    <iconset resource="images_resourcefile.qrc">
+     <normaloff>:/icon/images/icones/Alarms.png</normaloff>:/icon/images/icones/Alarms.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="images_resourcefile.qrc"/>
+ </resources>
  <connections/>
 </ui>

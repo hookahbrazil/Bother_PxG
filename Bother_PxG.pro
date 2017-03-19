@@ -29,14 +29,16 @@ SOURCES += main.cpp\
     alarms_dialog.cpp \
     fishing_dialog.cpp \
     healing_dialog.cpp \
-    hunting_dialog.cpp
+    hunting_dialog.cpp \
+    engine.cpp
 
 HEADERS  += main_dialog.h \
     cavebot_dialog.h \
     alarms_dialog.h \
     fishing_dialog.h \
     healing_dialog.h \
-    hunting_dialog.h
+    hunting_dialog.h \
+    engine.h
 
 FORMS    += main_dialog.ui \
     cavebot_dialog.ui \
@@ -47,3 +49,5 @@ FORMS    += main_dialog.ui \
 
 RESOURCES += \
     images_resourcefile.qrc
+
+QMAKE_CXXFLAGS += -std=gnu++11

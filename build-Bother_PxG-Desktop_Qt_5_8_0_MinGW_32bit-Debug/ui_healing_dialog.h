@@ -27,6 +27,9 @@ public:
         if (Healing_Dialog->objectName().isEmpty())
             Healing_Dialog->setObjectName(QStringLiteral("Healing_Dialog"));
         Healing_Dialog->resize(400, 300);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/icon/images/icones/Healer.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Healing_Dialog->setWindowIcon(icon);
 
         retranslateUi(Healing_Dialog);
 

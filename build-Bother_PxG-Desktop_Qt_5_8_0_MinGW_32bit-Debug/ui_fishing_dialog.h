@@ -27,6 +27,9 @@ public:
         if (Fishing_Dialog->objectName().isEmpty())
             Fishing_Dialog->setObjectName(QStringLiteral("Fishing_Dialog"));
         Fishing_Dialog->resize(400, 300);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/icon/images/icones/Fishing.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Fishing_Dialog->setWindowIcon(icon);
 
         retranslateUi(Fishing_Dialog);
 

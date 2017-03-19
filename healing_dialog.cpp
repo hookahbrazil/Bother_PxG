@@ -6,6 +6,7 @@ Healing_Dialog::Healing_Dialog(QWidget *parent) :
     ui(new Ui::Healing_Dialog)
 {
     ui->setupUi(this);
+    setWindowTitle("Curar");
 }
 
 Healing_Dialog::~Healing_Dialog()

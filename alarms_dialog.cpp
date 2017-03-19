@@ -6,6 +6,7 @@ Alarms_Dialog::Alarms_Dialog(QWidget *parent) :
     ui(new Ui::Alarms_Dialog)
 {
     ui->setupUi(this);
+    setWindowTitle("Alarmes");
 }
 
 Alarms_Dialog::~Alarms_Dialog()

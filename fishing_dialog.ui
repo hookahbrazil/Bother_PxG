@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Fishing_Dialog</class>
  <widget class="QDialog" name="Fishing_Dialog">
@@ -12,7 +13,13 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="images_resourcefile.qrc">
+    <normaloff>:/icon/images/icones/Fishing.png</normaloff>:/icon/images/icones/Fishing.png</iconset>
+  </property>
  </widget>
- <resources/>
+ <resources>
+  <include location="images_resourcefile.qrc"/>
+ </resources>
  <connections/>
 </ui>

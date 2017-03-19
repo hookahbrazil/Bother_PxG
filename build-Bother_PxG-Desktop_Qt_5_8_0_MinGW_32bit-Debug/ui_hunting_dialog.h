@@ -27,6 +27,9 @@ public:
         if (Hunting_Dialog->objectName().isEmpty())
             Hunting_Dialog->setObjectName(QStringLiteral("Hunting_Dialog"));
         Hunting_Dialog->resize(400, 300);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/icon/images/icones/Hunting.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Hunting_Dialog->setWindowIcon(icon);
 
         retranslateUi(Hunting_Dialog);
 

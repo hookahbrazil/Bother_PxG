@@ -6,6 +6,7 @@ Hunting_Dialog::Hunting_Dialog(QWidget *parent) :
     ui(new Ui::Hunting_Dialog)
 {
     ui->setupUi(this);
+    setWindowTitle("Caçar");
 }
 
 Hunting_Dialog::~Hunting_Dialog()

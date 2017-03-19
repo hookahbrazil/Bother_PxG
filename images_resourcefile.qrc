@@ -9,6 +9,7 @@
         <file>images/icones/Hunting.png</file>
         <file>images/icones/Looting.png</file>
         <file>images/icones/minilogo.png</file>
+        <file>images/icones/backpack.png</file>
     </qresource>
     <qresource prefix="/background">
         <file>images/background/dark-bg.png</file>
